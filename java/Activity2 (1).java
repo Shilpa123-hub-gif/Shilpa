@@ -2,20 +2,19 @@ package Activities;
 
 public class Activity2 {
 	    public static void main(String[] args) {
-	        // Initialize the array with 6 numbers
+	        
 	        int[] numbers = {10, 77, 10, 54, -11, 10};
 
-	        // Variable to hold the sum of all 10's
+	
 	        int sum = 0;
 
-	        // Loop through the array to find and sum all 10's
 	        for (int num : numbers) {
 	            if (num == 10) {
 	                sum += num;
 	            }
 	        }
 
-	        // Check if the sum is exactly 30
+	      
 	        if (sum == 30) {
 	            System.out.println(true);
 	        } else {
